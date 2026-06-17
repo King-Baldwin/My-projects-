@@ -1,0 +1,7 @@
+num = int(input("Enter the weight just a number: "))
+weight = input("Is that kg or p: ")
+
+if weight == "kg":
+    print(round(num * 2.20462, 2 ))
+elif weight =="p":
+    print(round(num * 0.453591830542594, 2))
