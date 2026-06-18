@@ -1,0 +1,8 @@
+temperature= float(input("Enter your temperature: "))
+unit=input("Is that Celcius (C) or Farenheit (F): ")
+if unit== "C":
+    print(round((temperature*9/5)+32,2))
+elif unit=="F":
+    print(round((temperature-32)*5/9,2))
+else:
+    print(f"Yoour temperature is not valid")
